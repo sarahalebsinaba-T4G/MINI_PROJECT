@@ -9,9 +9,12 @@
 
 <!-- NAVBAR -->
 <header>
-  <div class="logo">Mira's UrbanWear</div>
+  <div class="logo">
+    <img class="brand-logo" src="images/brand-logo.svg" alt="UrbanWear logo">
+    <div class="logo-text"><strong>UrbanWear</strong><span>Premium</span></div>
+  </div>
   <nav>
-    <a href="index.html">Home</a>
+    <a href="index.html" class="active">Home</a>
     <a href="pages/shop.html">Shop</a>
     <a href="pages/collections.html">Collections</a>
     <a href="pages/contact.html">Contact</a>
@@ -25,8 +28,8 @@
 <section class="hero">
   <div class="hero-text">
     <h1>Elevate Your Style</h1>
-    <p>Premium two-piece sets, joggers & tees designed for comfort and confidence.</p>
-    <button>Shop Now</button>
+    <p>Discover premium streetwear crafted for the modern soul. Exclusive collections blending comfort, confidence, and style—limited drops you won't find anywhere else. Shop now and join thousands of satisfied customers.</p>
+    <button onclick="location.href='pages/shop.html'">Shop Now</button>
   </div>
 </section>
 
@@ -34,18 +37,18 @@
 <section class="categories">
   <h2>Shop Categories</h2>
   <div class="category-grid">
-    <div class="card">
+    <a href="pages/shop.html" class="card">
       <img src="images/boutique pic3.webp" alt="">
-      <span> Quality outfits</span>
-    </div>
-    <div class="card">
+      <span>Quality Outfits</span>
+    </a>
+    <a href="pages/shop.html" class="card">
       <img src="images/innerwears.jpg" alt="Joggers">
       <span>Inner Wears</span>
-    </div>
-    <div class="card">
+    </a>
+    <a href="pages/shop.html" class="card">
       <img src="images/side bag.jpg" alt="T-Shirts">
       <span>Other Accessories</span>
-    </div>
+    </a>
   </div>
 </section>
 
@@ -54,39 +57,76 @@
   <h2>Best Sellers</h2>
   <div class="product-grid">
 
-    <div class="product">
+    <a href="pages/shop.html" class="product">
       <img src="images/luxury classicset.jpg">
       <h3>Classic Set</h3>
       <p>¢200.00</p>
-    </div>
+    </a>
 
-    <div class="product">
+    <a href="pages/shop.html" class="product">
       <img src="images/jewelry pic1.jpg">
       <h3>Jewelry</h3>
       <p>¢170.00</p>
-    </div>
+    </a>
 
-    <div class="product">
+    <a href="pages/shop.html" class="product">
       <img src="images/detailed shirt.jpg">
       <h3>Essential Tee</h3>
       <p>¢150.00</p>
-    </div>
+    </a>
 
-    <div class="product">
+    <a href="pages/shop.html" class="product">
       <img src="images/luxury twopiece set.jpg">
       <h3>Luxury Set</h3>
       <p>¢240.00</p>
-    </div>
+    </a>
 
   </div>
+</section>
+
+<!-- FEATURED COLLECTIONS -->
+<section class="featured-showcase">
+  <h2>Featured Collections</h2>
+  <p>Hand-picked styles that define this season</p>
+  <div class="showcase-boxes">
+    <div class="showcase-box large">
+      <img src="images/luxury twopiece set.jpg" alt="Luxury Collection">
+      <div class="box-overlay">
+        <h3>Luxury Sets</h3>
+        <span>Premium Quality</span>
+      </div>
+    </div>
+    <div class="showcase-box">
+      <img src="images/boutique pic3.webp" alt="Urban Essentials">
+      <div class="box-overlay">
+        <h3>Urban Essentials</h3>
+        <span>Street Style</span>
+      </div>
+    </div>
+    <div class="showcase-box">
+      <img src="images/innerwears.jpg" alt="Comfort Wear">
+      <div class="box-overlay">
+        <h3>Comfort Wear</h3>
+        <span>All Day</span>
+      </div>
+    </div>
+    <div class="showcase-box">
+      <img src="images/side bag.jpg" alt="Accessories">
+      <div class="box-overlay">
+        <h3>Accessories</h3>
+        <span>Complete Look</span>
+      </div>
+    </div>
+  </div>
+  <a href="pages/collections.html" class="btn-link" style="display: inline-block; margin-top: 25px;">Explore All Collections</a>
 </section>
 
 <!-- PROMO -->
 <section class="promo">
   <div class="promo-text">
-    <h2>Featured Collections Are in Shop</h2>
-    <p>Discover fresh styles and limited editions right now.</p>
-    <a href="pages/shop.html" class="btn-link">Go to Shop</a>
+    <h2>Ready to Transform Your Wardrobe?</h2>
+    <p>Limited stock on trending pieces. Don't miss out on exclusive designs.</p>
+    <a href="pages/shop.html" class="btn-link">Shop the Latest</a>
   </div>
 </section>
 

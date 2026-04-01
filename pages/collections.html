@@ -7,21 +7,116 @@
 </head>
 <body>
 <header>
-  <div class="logo">Mira's UrbanWear</div>
+  <div class="logo">
+    <img class="brand-logo" src="../images/brand-logo.svg" alt="UrbanWear logo">
+    <div class="logo-text"><strong>UrbanWear</strong><span>Premium</span></div>
+  </div>
   <nav>
     <a href="../index.html">Home</a>
     <a href="shop.html">Shop</a>
-    <a href="collections.html">Collections</a>
+    <a href="collections.html" class="active">Collections</a>
     <a href="contact.html">Contact</a>
     <a href="about.html">About</a>
     <a href="blog.html">Blog</a>
     <a href="faq.html">FAQ</a>
   </nav>
 </header>
-<main class="categories">
-  <h1>Collections</h1>
-  <p>Show your featured collections here.</p>
+
+<section class="hero-alt">
+  <div class="hero-text">
+    <h1>Explore Curated Collections</h1>
+    <p>Discover seasonal drops, limited editions, and best-selling looks crafted for modern streetwear.</p>
+    <button onclick="location.href='shop.html'">Shop Collections</button>
+  </div>
+</section>
+
+<main class="collections-page">
+  <section class="collection-grid">
+    <article class="collection-card">
+      <img src="../images/hoodie materialcheck.jpg" alt="Urban Essentials">
+      <h3>Material Check</h3>
+      <p>Clean tones, elevated basics — everything you need to build a capsule wardrobe.</p>
+    </article>
+
+    <article class="collection-card">
+      <img src="../images/colorcollection.jpg" alt="Weekend Relax">
+      <h3>Weekend Relax</h3>
+      <p>Cozy two-piece sets and joggers for effortless comfort without compromise.</p>
+    </article>
+
+    <article class="collection-card">
+      <img src="../images/luxury twopiece set.jpg" alt="Night Luxe">
+      <h3>Night Luxe</h3>
+      <p>Premium fabrics + bold details for evening looks that pop in photos and real life.</p>
+    </article>
+
+    <article class="collection-card">
+      <img src="../images/side bag.jpg" alt="Accessory Edit">
+      <h3>Accessory Edit</h3>
+      <p>Bag, jewelry, and small goods that complete and elevate every outfit.</p>
+    </article>
+  </section>
+
+  <section class="info-panel">
+    <h2>Why Our Collections Stand Out</h2>
+    <p>Each collection is built from community feedback, quality-first sourcing, and trend insights. We test every silhouette for fit, durability, and everyday wear.</p>
+    <ul>
+      <li>Eco-conscious materials</li>
+      <li>Multi-season wearability</li>
+      <li>Limited quantity drops</li>
+      <li>Free local shipping on orders over ¢150</li>
+    </ul>
+  </section>
+
+  <section class="shopping-cart-section">
+    <h2>Your Shopping Cart</h2>
+    <div class="cart-container">
+      <div class="cart-items">
+        <div class="empty-cart">
+          <p>Your cart is empty</p>
+          <p style="font-size: 14px; color: #a8c5dd; margin-top: 10px;">Select items from collections to add them here</p>
+          <a href="../pages/shop.html" class="btn-link" style="display: inline-block; margin-top: 15px;">Continue Shopping</a>
+        </div>
+      </div>
+      <div class="cart-summary">
+        <h3>Order Summary</h3>
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span>¢0.00</span>
+        </div>
+        <div class="summary-row">
+          <span>Shipping</span>
+          <span>Free</span>
+        </div>
+        <hr style="border: none; border-top: 1px solid rgba(90, 214, 255, 0.3); margin: 12px 0;">
+        <div class="summary-row total">
+          <span>Total</span>
+          <span>¢0.00</span>
+        </div>
+        <button class="checkout-btn" disabled>Proceed to Checkout</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="review-boxes">
+    <h2>Customer Favorites</h2>
+    <div class="testimonial-grid">
+      <blockquote>
+        <p>“The Weekend Relax set is pure comfort and the fit is perfect. Already ordered two more colors.”</p>
+        <footer>– Alex K., Verified Buyer</footer>
+      </blockquote>
+      <blockquote>
+        <p>“Attention to detail is next level — all of my friends ask where I got my outfit.”</p>
+        <footer>– Mai T., UrbanWear Member</footer>
+      </blockquote>
+      <blockquote>
+        <p>“Fast delivery, full tracking, and the material feels premium. Great value for price!”</p>
+        <footer>– Jana C., Repeat Customer</footer>
+      </blockquote>
+    </div>
+  </section>
 </main>
+
 <footer>
   <p>© 2026 UrbanWear. All rights reserved.</p>
 </footer>

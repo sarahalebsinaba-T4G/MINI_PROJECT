@@ -7,21 +7,137 @@
 </head>
 <body>
 <header>
-  <div class="logo">Mira's UrbanWear</div>
+  <div class="logo">
+    <img class="brand-logo" src="../images/brand-logo.svg" alt="UrbanWear logo">
+    <div class="logo-text"><strong>UrbanWear</strong><span>Premium</span></div>
+  </div>
   <nav>
     <a href="../index.html">Home</a>
     <a href="shop.html">Shop</a>
     <a href="collections.html">Collections</a>
-    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="active">Contact</a>
     <a href="about.html">About</a>
     <a href="blog.html">Blog</a>
     <a href="faq.html">FAQ</a>
   </nav>
 </header>
-<main class="newsletter">
+
+<section class="contact-hero">
   <h1>Contact Us</h1>
-  <p>Questions? Send us a message.</p>
+  <p>Questions, custom orders, or wholesale inquiries? We’re here to help.</p>
+</section>
+
+<main class="contact-grid">
+  <section class="contact-form">
+    <h2>Send a Message</h2>
+    <form>
+      <label>Name</label>
+      <input type="text" placeholder="Your name">
+      <label>Email</label>
+      <input type="email" placeholder="you@example.com">
+      <label>Message</label>
+      <textarea placeholder="Tell us how we can help"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section class="contact-boxes">
+    <div class="info-box">
+      <h3>📍 Store Location</h3>
+      <p><strong>North Kaneshi</strong></p>
+      <p>Accra, Ghana</p>
+      <p style="font-size: 14px; margin-top: 8px; color: #a8c5dd;">📧 sarahalebsinaba@gmail.com</p>
+      <p style="font-size: 14px; color: #a8c5dd;">📞 +233 593796166</p>
+      <p style="font-size: 14px; color: #a8c5dd; margin-top: 10px;">🕐 Mon-Sat 10am-9pm</p>
+    </div>
+
+    <div class="info-box">
+      <h3>⚡ Fast Support</h3>
+      <p style="margin-bottom: 12px;">We're always here for you</p>
+      <ul style="list-style: none; padding: 0;">
+        <li style="margin-bottom: 8px;">💬 <strong>Live Chat:</strong> 9am–2pm</li>
+        <li style="margin-bottom: 8px;">📧 <strong>Email:</strong> Within 24h</li>
+        <li>📦 <strong>Tracking:</strong> Real-time updates</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="map-container">
+    <h2>Find Us Here</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.1234567890!2d-0.2!3d5.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sNorth%20Kaneshi%2C%20Accra%2C%20Ghana!5e0!3m2!1sen!2sgh!4v0000000000000" width="100%" height="400" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p style="text-align: center; margin-top: 15px; color: #bfe5ff; font-size: 14px;">📍 Our store is located in North Kaneshi, Accra. Visit us or order online!</p>
+  </section>
 </main>
+
+<section class="order-tracking">
+  <h2>Track Your Order</h2>
+  <div class="tracking-container">
+    <div class="tracking-form">
+      <input type="text" placeholder="Enter Order ID (e.g., URB-2026-001)">
+      <input type="email" placeholder="Enter Email Address">
+      <button>Track Order</button>
+    </div>
+    <div class="tracking-status">
+      <h3>Order Status</h3>
+      <div class="status-timeline">
+        <div class="status-step">
+          <div class="status-circle completed">✓</div>
+          <p><strong>Order Placed</strong></p>
+          <span>Mar 30, 2026</span>
+        </div>
+        <div class="status-step">
+          <div class="status-circle completed">✓</div>
+          <p><strong>Processing</strong></p>
+          <span>Mar 31, 2026</span>
+        </div>
+        <div class="status-step">
+          <div class="status-circle">●</div>
+          <p><strong>Sent for Delivery</strong></p>
+          <span>Apr 2, 2026</span>
+        </div>
+        <div class="status-step">
+          <div class="status-circle"></div>
+          <p><strong>Received</strong></p>
+          <span>Pending</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="customer-feedback">
+  <h2>Share Your Feedback</h2>
+  <p>Your reviews help us improve. Tell us about your UrbanWear experience!</p>
+  <div class="feedback-form">
+    <textarea placeholder="Write your feedback here..."></textarea>
+    <div class="rating">
+      <label>Rate your experience:</label>
+      <div class="stars">
+        <span class="star" onclick="this.classList.toggle('active')">★</span>
+        <span class="star" onclick="this.classList.toggle('active')">★</span>
+        <span class="star" onclick="this.classList.toggle('active')">★</span>
+        <span class="star" onclick="this.classList.toggle('active')">★</span>
+        <span class="star" onclick="this.classList.toggle('active')">★</span>
+      </div>
+    </div>
+    <button class="submit-feedback">Submit Feedback</button>
+  </div>
+</section>
+
+<section class="review-boxes">
+  <h2>What Customers Say</h2>
+  <div class="testimonial-grid">
+    <blockquote>
+      <p>“The support team helped me track my package and even recommended the best size.”</p>
+      <footer>– Sena A. Boakye</footer>
+    </blockquote>
+    <blockquote>
+      <p>“Very responsive and friendly. I always get quick updates from their support channel.”</p>
+      <footer>– Nii C. Appiah</footer>
+    </blockquote>
+  </div>
+</section>
+
 <footer>
   <p>© 2026 UrbanWear. All rights reserved.</p>
 </footer>
